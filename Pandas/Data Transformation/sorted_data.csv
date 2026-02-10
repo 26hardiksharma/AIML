@@ -1,0 +1,11 @@
+,Id,Name,Age,Country,Gender,Income,Tax,New_income,Ranking
+9,9,Carlos Ruiz,,Mexico,M,45000.0,10,49500.0,1.0
+3,3,Alex,,USA,M,47000.0,10,51700.0,2.0
+5,5,Li Wei,27.0,China,M,51000.0,20,61200.0,3.0
+0,1,John Doe,29.0,USA,M,55000.0,20,66000.0,4.5
+10,10,Emily Davis,31.0,USA,,58000.0,20,69600.0,6.0
+8,8,Rachel Lee,29.0,USA,F,62000.0,20,74400.0,7.5
+2,2,Jane Smith,,Canada,F,62000.0,20,74400.0,7.5
+7,7,Ahmed Khan,38.0,,M,68000.0,20,81600.0,9.0
+6,6,,45.0,India,F,73000.0,20,87600.0,10.0
+4,4,Maria Garcia,34.0,Spain,F,,10,,
