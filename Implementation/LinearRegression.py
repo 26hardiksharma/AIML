@@ -2,7 +2,7 @@ import numpy as np
 import pandas as pd
 
 
-class LinearRegressior:
+class LinearRegressor:
     def __init__(self,learning_rate = 0.01,n_iter = 10000):
         self.lr = learning_rate
         self.n_iter = n_iter
@@ -19,7 +19,7 @@ class LinearRegressior:
         for _ in range(self.n_iter):
 
             #Step 2
-            Y_pred = self.bias + np.dot(X,self.weights)
+            Y_pred = self.bias + np.dot(X,self.weights) # n x p
 
             #Step 3
             db = (1/samples)*np.sum(Y_pred-Y)
@@ -34,7 +34,7 @@ class LinearRegressior:
 def main():
     X = np.array([[1],[2],[3],[4],[5],[6]])
     Y = np.array([3,6,9,12,15,18])
-    model = LinearRegressior()
+    model = LinearRegressor()
 
     model.fit(X,Y)
     print(model.predict([[10],[20],[30],[40],[50]]))
