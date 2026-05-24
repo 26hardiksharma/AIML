@@ -1,0 +1,35 @@
+flappybirdv0:
+  env_id: FlappyBird-v0
+  replay_memory_size: 100000
+  mini_batch_size: 64
+  epsilon_init: 1
+  epsilon_decay: 0.99_99_5
+  epsilon_min: 0.05
+  network_sync_rate: 1000
+  gamma: 0.99
+  alpha: 0.0001
+  stop_on_reward: 100000
+
+flappybirdv1:
+  env_id: FlappyBird-v0
+  replay_memory_size: 100000
+  mini_batch_size: 64
+  epsilon_init: 1
+  epsilon_decay: 0.9995
+  epsilon_min: 0.05
+  network_sync_rate: 5000
+  gamma: 0.99
+  alpha: 0.0001
+  stop_on_reward: 100000
+
+flappybirdv2:
+  env_id: FlappyBird-v0
+  replay_memory_size: 100000
+  mini_batch_size: 64
+  epsilon_init: 1
+  epsilon_decay: 0.9995
+  epsilon_min: 0.05
+  network_sync_rate: 5000
+  gamma: 0.99
+  alpha: 0.0001
+  stop_on_reward: 100000
