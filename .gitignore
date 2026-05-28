@@ -1,5 +1,9 @@
-*.pt
-RAG/data/
-venv
-*.env
+venv/
 .venv/
+data/
+*.pkl
+*.csv
+*.pdf
+*.sqlite3
+cifar-10-batches-py/
+*.pt
