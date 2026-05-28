@@ -1,6 +1,5 @@
 *.pt
-*data/
-data/
+RAG/data/
 venv
 *.env
 .venv/
